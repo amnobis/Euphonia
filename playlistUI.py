@@ -9,6 +9,7 @@ from metadataUI import metadataUI
 class playlistUI(QTreeWidget):
     trackChange = pyqtSignal(QTreeWidgetItem, int)
     unknownTrack = pyqtSignal(str)
+    meta = ["TITLE", "LENGTH", "ALBUMARTIST", "ALBUM", "STYLE"]
 
     def __init__(self):
         super().__init__()
@@ -24,41 +25,25 @@ class playlistUI(QTreeWidget):
         for root, dirs, files in os.walk("/home/anobis/library"):
             for file in files:
                 data = taglib.File(os.path.join(root,file))
-                title = ''
-                time = ''
-                comp = ''
-                album = ''
-                genre = ''
-                if data.tags.get("TITLE") is None:
-                    print(data.tags)
-                    self.unknownTrack.emit(str(os.path.join(root, file)))
+                info = ['' for i in range(5)]
 
-                if data.tags.get("LENGTH") != None:
-                    length = int(data.tags.get("LENGTH")[0]) / 1000
-                    mins = int(length / 60)
-                    secs = int(length - 60 * mins)
-                    time = str(mins) + ":%02d" % secs
-
-                if data.tags.get("TITLE") != None:
-                    title = data.tags.get("TITLE")[0]
-                else:
-                    title = "Unknown Track"
-
-                if data.tags.get("ALBUMARTIST") != None:
-                    comp = data.tags.get("ALBUMARTIST")[0]
-
-                if data.tags.get("ALBUM") != None:
-                    album = data.tags.get("ALBUM")[0]
-
-                if data.tags.get("STYLE") != None:
-                    genre = data.tags.get("STYLE")[0]
+                try:
+                    for i in range(5):
+                        if i == 1:
+                            length = int(data.tags.get(self.meta[i])[0]) / 1000
+                            mins = int(length / 60)
+                            secs = int(length - 60 * mins)
+                            info[i] = str(mins) + ":%02d" % secs
+                        else:
+                            info[i] = data.tags.get(self.meta[i])[0]
+                except:
+                    if info[0] is '':
+                        info[0] = "Unknown Track"
 
                 item = QTreeWidgetItem()
-                item.setText(0, title)
-                item.setText(1, time)
-                item.setText(2, comp)
-                item.setText(3, album)
-                item.setText(4, genre)
+                for i in range(5):
+                    item.setText(i, info[i])
+
                 item.setData(0, 1, QUrl.fromLocalFile(os.path.join(root, file)))
                 self.addTopLevelItem(item)
         headers = ["Name", "Time", "Artist", "Album", "Genre"]
@@ -87,6 +72,7 @@ class playlistUI(QTreeWidget):
     def connectWidgets(self):
         self.customContextMenuRequested.connect(self.showMenu)
         self.metadataUI.saveMeta.connect(self.saveMeta)
+        self.metadataUI.closeButton.clicked.connect(self.closeMeta)
 
     @pyqtSlot(QPoint)
     def showMenu(self, point):
@@ -118,8 +104,25 @@ class playlistUI(QTreeWidget):
         self.metadataUI.loadData(self.currentItem())
         self.metadataUI.show()
 
+    def closeMeta(self):
+        self.setEnabled(True)
+
     def saveMeta(self, data):
         edit = taglib.File(self.currentItem().data(0,1).path())
-        edit.tags["TITLE"] = data["TITLE"]
-        self.currentItem().setText(0, data["TITLE"])
+
+        for i in range(5):
+            if i == 1:
+                edit.tags[self.meta[i]] = self.parseTime(data[self.meta[i]])
+            else:
+                edit.tags[self.meta[i]] = data[self.meta[i]]
+
+            self.currentItem().setText(i, data[self.meta[i]])
+
+        edit.save()
         self.setEnabled(True)
+
+    def parseTime(self, val):
+        ms = val.split(":")
+
+        return str((int(ms[0]) * 60 + int(ms[1])) * 1000)
+

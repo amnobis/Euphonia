@@ -15,8 +15,7 @@ class audioUI(QWidget):
         self.prevButton = QToolButton(self)
         self.nextButton = QToolButton(self)
         self.timeSlider = timeSlider(Qt.Horizontal)
-        print("hello")
-	self.initControls()
+        self.initControls()
         self.connectControls()
 
     def initControls(self):
