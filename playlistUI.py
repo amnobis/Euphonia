@@ -15,10 +15,12 @@ class playlistUI(QTreeWidget):
         self.setContextMenuPolicy(Qt.CustomContextMenu)
         self.setSelectionMode(QAbstractItemView.ExtendedSelection)
         self.metadataUI = metadataUI()
+        self.songMenu = QMenu("Actions")
+        self.addMenu = QMenu("Actions")
         self.connectWidgets()
 
     def initPlaylist(self):
-        self.songMenu()
+        self.initMenus()
         for root, dirs, files in os.walk("/home/anobis/library"):
             for file in files:
                 data = taglib.File(os.path.join(root,file))
@@ -88,13 +90,23 @@ class playlistUI(QTreeWidget):
 
     @pyqtSlot(QPoint)
     def showMenu(self, point):
-        self.menu.exec(self.mapToGlobal(point))
+        if self.currentItem() is None:
+            self.addMenu.exec(self.mapToGlobal(point))
+        else:
+            self.songMenu.exec(self.mapToGlobal(point))
 
-    def songMenu(self):
-        self.menu = QMenu("Actions")
-        self.menuPlay = QAction("Play Song", self.menu)
-        self.menuEdit = QAction("Edit Metadata", self.menu)
-        self.menu.addActions([self.menuPlay, self.menuEdit])
+    def initMenus(self):
+        self.initSongMenu()
+        self.initAddMenu()
+    
+    def initAddMenu(self):
+        self.menuAdd = QAction("Add Songs...", self.addMenu)
+        self.addMenu.addAction(self.menuAdd)
+    
+    def initSongMenu(self):
+        self.menuPlay = QAction("Play Song", self.songMenu)
+        self.menuEdit = QAction("Edit Metadata", self.songMenu)
+        self.songMenu.addActions([self.menuPlay, self.menuEdit])
         self.menuPlay.triggered.connect(self.currTrack)
         self.menuEdit.triggered.connect(self.showMeta)
 

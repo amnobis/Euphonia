@@ -1,6 +1,6 @@
 from PyQt5.QtCore import pyqtSlot, QUrl, pyqtSignal
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
-from PyQt5.QtWidgets import QTreeWidgetItem, QStyle
+from PyQt5.QtWidgets import QTreeWidgetItem
 
 
 class audioEngine(QMediaPlayer):

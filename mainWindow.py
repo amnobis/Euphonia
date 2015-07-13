@@ -1,13 +1,10 @@
+from PyQt5.QtWidgets import QMainWindow, QWidget, QGridLayout, QApplication
 import sys
 
-from PyQt5.QtCore import *
-from PyQt5.QtWidgets import *
-from PyQt5.QtMultimedia import *
-from PyQt5.QtGui import *
 from audioEngine import audioEngine
-from playlistUI import playlistUI
 from audioUI import audioUI
-from echoNest import echoNest
+from playlistUI import playlistUI
+
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -15,7 +12,6 @@ class MainWindow(QMainWindow):
         self.playlistUI = playlistUI()
         self.audioUI = audioUI()
         self.engine = audioEngine()
-        self.echoNest = echoNest()
         self.mainWidget = QWidget()
         self.layout = QGridLayout(self.mainWidget)
         self.connectWidgets()
@@ -26,14 +22,13 @@ class MainWindow(QMainWindow):
         self.layout.addWidget(self.playlistUI, 0, 1)
         self.layout.addWidget(self.audioUI, 1, 1)
         self.setCentralWidget(self.mainWidget)
-        self.setGeometry(600, 300, 1000, self.height())
+        self.setGeometry(300, 300, 1100, self.height())
         self.setWindowTitle('Euphonia')
         self.show()
 
     def connectWidgets(self):
         self.playlistUI.itemDoubleClicked.connect(self.engine.playTrack)
         self.playlistUI.trackChange.connect(self.engine.playTrack)
-        self.playlistUI.unknownTrack.connect(self.echoNest.getTrack)
 
         self.audioUI.nextTrack.connect(self.playlistUI.nextTrack)
         self.audioUI.prevTrack.connect(self.playlistUI.prevTrack)
@@ -53,3 +48,4 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MainWindow()
     sys.exit(app.exec_())
+    
