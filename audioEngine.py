@@ -12,8 +12,10 @@ class audioEngine(QMediaPlayer):
     def playMusic(self):
         if self.state() == QMediaPlayer.PlayingState:
             self.pause()
-        else:
+        elif self.state() == QMediaPlayer.PausedState:
             self.play()
+        else:
+            self.reqMedia.emit()
 
     @pyqtSlot(int)
     def setTime(self, time):
@@ -24,4 +26,5 @@ class audioEngine(QMediaPlayer):
     def playTrack(self, item, column):
         filepath = item.data(0,1)
         self.setMedia(QMediaContent(filepath))
+        self.pause()
         self.playMusic()
