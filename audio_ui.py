@@ -1,11 +1,11 @@
-from PyQt5.QtCore import pyqtSignal, Qt, QUrl, pyqtSlot
-from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
-from PyQt5.QtWidgets import QWidget, QHBoxLayout, QToolButton, QStyle, QTreeWidgetItem, QSlider
+from PyQt5.QtCore import pyqtSignal, Qt, pyqtSlot
+from PyQt5.QtMultimedia import QMediaPlayer
+from PyQt5.QtWidgets import QWidget, QHBoxLayout, QToolButton, QStyle, QSlider
 
 
-class audioUI(QWidget):
-    nextTrack = pyqtSignal()
-    prevTrack = pyqtSignal()
+class AudioUI(QWidget):
+    next_track = pyqtSignal()
+    prev_track = pyqtSignal()
 
     def __init__(self):
         super().__init__()
@@ -14,11 +14,11 @@ class audioUI(QWidget):
         self.playButton = QToolButton(self)
         self.prevButton = QToolButton(self)
         self.nextButton = QToolButton(self)
-        self.timeSlider = timeSlider(Qt.Horizontal)
-        self.initControls()
-        self.connectControls()
+        self.timeSlider = TimeSlider(Qt.Horizontal)
+        self.init_controls()
+        self.connect_controls()
 
-    def initControls(self):
+    def init_controls(self):
         self.playButton.setIcon(self.style().standardIcon(QStyle.SP_MediaPlay))
         self.playButton.resize(40, 40)
 
@@ -35,33 +35,33 @@ class audioUI(QWidget):
 
         self.setLayout(self.layout)
 
-    def connectControls(self):
-        self.prevButton.clicked.connect(self.rewMusic)
-        self.nextButton.clicked.connect(self.nextMusic)
+    def connect_controls(self):
+        self.prevButton.clicked.connect(self.rewind_music)
+        self.nextButton.clicked.connect(self.next_music)
 
-    def updateSlider(self, time):
+    def update_slider(self, time):
         self.timeSlider.setValue(time)
 
-    def sliderDuration(self, duration):
+    def slider_duration(self, duration):
         self.timeSlider.setRange(0, duration)
 
-    def rewMusic(self):
+    def rewind_music(self):
         if self.timeSlider.value() < self.timeSlider.maximum() / 1000:
-            self.prevTrack.emit()
+            self.prev_track.emit()
         else:
             self.timeSlider.setValue(0)
 
-    def nextMusic(self):
-        self.nextTrack.emit()
+    def next_music(self):
+        self.next_track.emit()
 
     @pyqtSlot(QMediaPlayer.State)
-    def setPlayButton(self, state):
+    def set_play_button(self, state):
         if state == QMediaPlayer.PlayingState:
             self.playButton.setIcon(self.style().standardIcon(QStyle.SP_MediaPause))
         else:
             self.playButton.setIcon(self.style().standardIcon(QStyle.SP_MediaPlay))
 
-class timeSlider(QSlider):
+class TimeSlider(QSlider):
     def __init__(self, orientation):
         super().__init__()
         self.setOrientation(orientation)

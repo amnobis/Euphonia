@@ -3,10 +3,10 @@ import taglib
 from PyQt5.QtCore import pyqtSignal, QUrl, Qt, pyqtSlot, QPoint
 from PyQt5.QtWidgets import QTreeWidget, QAbstractItemView, QMenu, QAction
 from PyQt5.QtWidgets import QTreeWidgetItem
-from metadataUI import metadataUI
+from metadata_ui import MetadataUI
 
 
-class playlistUI(QTreeWidget):
+class PlaylistUI(QTreeWidget):
     trackChange = pyqtSignal(QTreeWidgetItem, int)
     unknownTrack = pyqtSignal(str)
     meta = ["TITLE", "LENGTH", "ALBUMARTIST", "ALBUM", "STYLE"]
@@ -16,13 +16,13 @@ class playlistUI(QTreeWidget):
         super().__init__()
         self.setContextMenuPolicy(Qt.CustomContextMenu)
         self.setSelectionMode(QAbstractItemView.ExtendedSelection)
-        self.metadataUI = metadataUI()
+        self.MetadataUI = MetadataUI()
         self.songMenu = QMenu("Actions")
         self.addMenu = QMenu("Actions")
-        self.connectWidgets()
+        self._connect_widgets()
 
-    def initPlaylist(self):
-        self.initMenus()
+    def init_playlist(self):
+        self.init_menus()
         for root, dirs, files in os.walk("/home/anobis/library"):
             for file in files:
                 data = taglib.File(os.path.join(root,file))
@@ -56,64 +56,64 @@ class playlistUI(QTreeWidget):
         self.setColumnWidth(3, 200)
         self.setColumnWidth(4, 150)
 
-    def nextTrack(self):
+    def next_track(self):
         item = self.itemBelow(self.currentItem())
         if item is None:
             item = self.topLevelItem(0)
         self.setCurrentItem(item)
         self.trackChange.emit(item, 0)
 
-    def prevTrack(self):
+    def prev_track(self):
         item = self.itemAbove(self.currentItem())
         if item is None:
             item = self.topLevelItem(self.topLeveLitemCount() - 1)
         self.setCurrentItem(item)
         self.trackChange.emit(item, 0)
 
-    def connectWidgets(self):
-        self.customContextMenuRequested.connect(self.showMenu)
-        self.metadataUI.saveMeta.connect(self.saveMeta)
-        self.metadataUI.closeButton.clicked.connect(self.closeMeta)
+    def _connect_widgets(self):
+        self.customContextMenuRequested.connect(self.show_menu)
+        self.MetadataUI.save_metadata.connect(self.save_metadata)
+        self.MetadataUI.closeButton.clicked.connect(self.close_metadata)
 
     @pyqtSlot(QPoint)
-    def showMenu(self, point):
+    def show_menu(self, point):
         if self.currentItem() is None:
             self.addMenu.exec(self.mapToGlobal(point))
         else:
             self.songMenu.exec(self.mapToGlobal(point))
 
-    def initMenus(self):
-        self.initSongMenu()
-        self.initAddMenu()
+    def init_menus(self):
+        self.init_song_menu()
+        self.init_add_menu()
     
-    def initAddMenu(self):
+    def init_add_menu(self):
         self.menuAdd = QAction("Add Songs...", self.addMenu)
         self.addMenu.addAction(self.menuAdd)
     
-    def initSongMenu(self):
+    def init_song_menu(self):
         self.menuPlay = QAction("Play Song", self.songMenu)
         self.menuEdit = QAction("Edit Metadata", self.songMenu)
         self.songMenu.addActions([self.menuPlay, self.menuEdit])
-        self.menuPlay.triggered.connect(self.currTrack)
-        self.menuEdit.triggered.connect(self.showMeta)
+        self.menuPlay.triggered.connect(self.current_track)
+        self.menuEdit.triggered.connect(self.show_metadata)
 
-    def currTrack(self):
+    def current_track(self):
         self.trackChange.emit(self.currentItem(), 0)
 
-    def showMeta(self):
+    def show_metadata(self):
         self.setEnabled(False)
-        self.metadataUI.loadData(self.currentItem())
-        self.metadataUI.show()
+        self.MetadataUI.load_data(self.currentItem())
+        self.MetadataUI.show()
 
-    def closeMeta(self):
+    def close_metadata(self):
         self.setEnabled(True)
 
-    def saveMeta(self, data):
+    def save_metadata(self, data):
         edit = taglib.File(self.currentItem().data(0,1).path())
 
         for i in range(5):
             if i == 1:
-                edit.tags[self.meta[i]] = self.parseTime(data[self.meta[i]])
+                edit.tags[self.meta[i]] = self.parse_time_string(data[self.meta[i]])
             else:
                 edit.tags[self.meta[i]] = data[self.meta[i]]
 
@@ -122,7 +122,7 @@ class playlistUI(QTreeWidget):
         edit.save()
         self.setEnabled(True)
 
-    def parseTime(self, val):
+    def parse_time_string(self, val):
         ms = val.split(":")
 
         return str((int(ms[0]) * 60 + int(ms[1])) * 1000)
