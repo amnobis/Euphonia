@@ -22,9 +22,9 @@ class MetadataUI(QDialog):
         self.genreLabel = QLabel("Genre")
         self.layout = QGridLayout()
         self.setWindowTitle("Edit Metadata")
-        self.init_ui()
+        self._init_ui()
 
-    def init_ui(self):
+    def _init_ui(self):
         self.layout.addWidget(self.titleLabel, 0, 0)
         self.layout.addWidget(self.titleEdit, 0, 1, 1, 3)
         self.layout.addWidget(self.timeLabel, 1, 0)

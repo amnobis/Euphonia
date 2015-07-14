@@ -15,10 +15,10 @@ class AudioUI(QWidget):
         self.prevButton = QToolButton(self)
         self.nextButton = QToolButton(self)
         self.timeSlider = TimeSlider(Qt.Horizontal)
-        self.init_controls()
-        self.connect_controls()
+        self._init_ui()
+        self._connect_widgets()
 
-    def init_controls(self):
+    def _init_ui(self):
         self.playButton.setIcon(self.style().standardIcon(QStyle.SP_MediaPlay))
         self.playButton.resize(40, 40)
 
@@ -35,7 +35,7 @@ class AudioUI(QWidget):
 
         self.setLayout(self.layout)
 
-    def connect_controls(self):
+    def _connect_widgets(self):
         self.prevButton.clicked.connect(self.rewind_music)
         self.nextButton.clicked.connect(self.next_music)
 

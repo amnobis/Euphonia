@@ -9,40 +9,36 @@ from playlist_ui import PlaylistUI
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.PlaylistUI = PlaylistUI()
-        self.AudioUI = AudioUI()
+        self.playlistUI = PlaylistUI()
+        self.audioUI = AudioUI()
         self.engine = AudioEngine()
         self.mainWidget = QWidget()
         self.layout = QGridLayout(self.mainWidget)
         self._connect_widgets()
-        self.PlaylistUI.init_playlist()
-        self.init_ui()
+        self._init_ui()
 
-    def init_ui(self):
-        self.layout.addWidget(self.PlaylistUI, 0, 1)
-        self.layout.addWidget(self.AudioUI, 1, 1)
+    def _init_ui(self):
+        self.layout.addWidget(self.playlistUI, 0, 1)
+        self.layout.addWidget(self.audioUI, 1, 1)
         self.setCentralWidget(self.mainWidget)
         self.setGeometry(300, 300, 1100, self.height())
         self.setWindowTitle('Euphonia')
         self.show()
 
     def _connect_widgets(self):
-        self.PlaylistUI.itemDoubleClicked.connect(self.engine.play_track)
-        self.PlaylistUI.trackChange.connect(self.engine.play_track)
+        self.playlistUI.itemDoubleClicked.connect(self.engine.play_track)
+        self.playlistUI.trackChange.connect(self.engine.play_track)
 
-        self.AudioUI.next_track.connect(self.PlaylistUI.next_track)
-        self.AudioUI.prev_track.connect(self.PlaylistUI.prev_track)
-        self.AudioUI.playButton.clicked.connect(self.engine.play_music)
-        self.AudioUI.prevButton.clicked.connect(lambda: self.engine.set_time(0))
-        self.AudioUI.timeSlider.valueChanged.connect(self.engine.set_time)
+        self.audioUI.next_track.connect(self.playlistUI.next_track)
+        self.audioUI.prev_track.connect(self.playlistUI.prev_track)
+        self.audioUI.playButton.clicked.connect(self.engine.play_music)
+        self.audioUI.prevButton.clicked.connect(lambda: self.engine.set_time(0))
+        self.audioUI.timeSlider.valueChanged.connect(self.engine.set_time)
 
-        self.engine.reqMedia.connect(self.PlaylistUI.current_track)
-        self.engine.stateChanged.connect(self.AudioUI.set_play_button)
-        self.engine.positionChanged.connect(self.AudioUI.update_slider)
-        self.engine.durationChanged.connect(self.AudioUI.slider_duration)
-
-    def test_signal(self):
-        print("Signal has occured")
+        self.engine.reqMedia.connect(self.playlistUI.current_track)
+        self.engine.stateChanged.connect(self.audioUI.set_play_button)
+        self.engine.positionChanged.connect(self.audioUI.update_slider)
+        self.engine.durationChanged.connect(self.audioUI.slider_duration)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

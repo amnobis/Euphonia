@@ -16,13 +16,14 @@ class PlaylistUI(QTreeWidget):
         super().__init__()
         self.setContextMenuPolicy(Qt.CustomContextMenu)
         self.setSelectionMode(QAbstractItemView.ExtendedSelection)
-        self.MetadataUI = MetadataUI()
+        self.metadataUI = MetadataUI()
         self.songMenu = QMenu("Actions")
         self.addMenu = QMenu("Actions")
         self._connect_widgets()
+        self._init_playlist()
 
-    def init_playlist(self):
-        self.init_menus()
+    def _init_playlist(self):
+        self._init_menus()
         for root, dirs, files in os.walk("/home/anobis/library"):
             for file in files:
                 data = taglib.File(os.path.join(root,file))
@@ -72,8 +73,8 @@ class PlaylistUI(QTreeWidget):
 
     def _connect_widgets(self):
         self.customContextMenuRequested.connect(self.show_menu)
-        self.MetadataUI.save_metadata.connect(self.save_metadata)
-        self.MetadataUI.closeButton.clicked.connect(self.close_metadata)
+        self.metadataUI.save_metadata.connect(self.save_metadata)
+        self.metadataUI.closeButton.clicked.connect(self.close_metadata)
 
     @pyqtSlot(QPoint)
     def show_menu(self, point):
@@ -82,15 +83,15 @@ class PlaylistUI(QTreeWidget):
         else:
             self.songMenu.exec(self.mapToGlobal(point))
 
-    def init_menus(self):
-        self.init_song_menu()
-        self.init_add_menu()
+    def _init_menus(self):
+        self._init_song_menu()
+        self._init_add_menu()
     
-    def init_add_menu(self):
+    def _init_add_menu(self):
         self.menuAdd = QAction("Add Songs...", self.addMenu)
         self.addMenu.addAction(self.menuAdd)
     
-    def init_song_menu(self):
+    def _init_song_menu(self):
         self.menuPlay = QAction("Play Song", self.songMenu)
         self.menuEdit = QAction("Edit Metadata", self.songMenu)
         self.songMenu.addActions([self.menuPlay, self.menuEdit])
@@ -102,8 +103,8 @@ class PlaylistUI(QTreeWidget):
 
     def show_metadata(self):
         self.setEnabled(False)
-        self.MetadataUI.load_data(self.currentItem())
-        self.MetadataUI.show()
+        self.metadataUI.load_data(self.currentItem())
+        self.metadataUI.show()
 
     def close_metadata(self):
         self.setEnabled(True)
@@ -113,7 +114,7 @@ class PlaylistUI(QTreeWidget):
 
         for i in range(5):
             if i == 1:
-                edit.tags[self.meta[i]] = self.parse_time_string(data[self.meta[i]])
+                edit.tags[self.meta[i]] = self._parse_time_string(data[self.meta[i]])
             else:
                 edit.tags[self.meta[i]] = data[self.meta[i]]
 
@@ -122,7 +123,7 @@ class PlaylistUI(QTreeWidget):
         edit.save()
         self.setEnabled(True)
 
-    def parse_time_string(self, val):
+    def _parse_time_string(self, val):
         ms = val.split(":")
 
         return str((int(ms[0]) * 60 + int(ms[1])) * 1000)
