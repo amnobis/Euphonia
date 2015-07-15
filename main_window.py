@@ -4,13 +4,14 @@ import sys
 from audio_engine import AudioEngine
 from audio_ui import AudioUI
 from playlist_ui import PlaylistUI
-
+from menu_ui import MenuUI
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.playlistUI = PlaylistUI()
         self.audioUI = AudioUI()
+        self.menuUI = MenuUI()
         self.engine = AudioEngine()
         self.mainWidget = QWidget()
         self.layout = QGridLayout(self.mainWidget)
@@ -21,6 +22,7 @@ class MainWindow(QMainWindow):
         self.layout.addWidget(self.playlistUI, 0, 1)
         self.layout.addWidget(self.audioUI, 1, 1)
         self.setCentralWidget(self.mainWidget)
+        self.setMenuBar(self.menuUI)
         self.setGeometry(300, 300, 1100, self.height())
         self.setWindowTitle('Euphonia')
         self.show()

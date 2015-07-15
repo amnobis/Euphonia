@@ -12,7 +12,6 @@ class PlaylistUI(QTreeWidget):
     meta = ["TITLE", "LENGTH", "ALBUMARTIST", "ALBUM", "STYLE"]
 
     def __init__(self):
-        print("Test this blah blah. GitHub is stupid.")
         super().__init__()
         self.setContextMenuPolicy(Qt.CustomContextMenu)
         self.setSelectionMode(QAbstractItemView.ExtendedSelection)
