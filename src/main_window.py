@@ -1,10 +1,11 @@
-from PyQt5.QtWidgets import QMainWindow, QWidget, QGridLayout, QApplication
 import sys
+from PyQt5.QtWidgets import QMainWindow, QWidget, QGridLayout, QApplication
 
-from audio_engine import AudioEngine
-from audio_ui import AudioUI
-from playlist_ui import PlaylistUI
-from menu_ui import MenuUI
+from src.engine.audio_engine import AudioEngine
+from src.ui.audio_ui import AudioUI
+from src.ui.playlist_ui import PlaylistUI
+from src.ui.menu_ui import MenuUI
+
 
 class MainWindow(QMainWindow):
     def __init__(self):

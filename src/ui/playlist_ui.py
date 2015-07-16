@@ -1,9 +1,11 @@
 import os
 import taglib
+
 from PyQt5.QtCore import pyqtSignal, QUrl, Qt, pyqtSlot, QPoint
 from PyQt5.QtWidgets import QTreeWidget, QAbstractItemView, QMenu, QAction
 from PyQt5.QtWidgets import QTreeWidgetItem
-from metadata_ui import MetadataUI
+
+from src.ui.metadata_ui import MetadataUI
 
 
 class PlaylistUI(QTreeWidget):
