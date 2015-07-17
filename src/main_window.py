@@ -2,9 +2,11 @@ import sys
 from PyQt5.QtWidgets import QMainWindow, QWidget, QGridLayout, QApplication
 
 from src.engine.audio_engine import AudioEngine
+from src.engine.library_engine import LibraryEngine
 from src.ui.audio_ui import AudioUI
 from src.ui.playlist_ui import PlaylistUI
 from src.ui.menu_ui import MenuUI
+
 
 
 class MainWindow(QMainWindow):
@@ -14,6 +16,7 @@ class MainWindow(QMainWindow):
         self.audioUI = AudioUI()
         self.menuUI = MenuUI()
         self.engine = AudioEngine()
+        self.library = LibraryEngine()
         self.mainWidget = QWidget()
         self.layout = QGridLayout(self.mainWidget)
         self._connect_widgets()
@@ -37,6 +40,8 @@ class MainWindow(QMainWindow):
         self.audioUI.playButton.clicked.connect(self.engine.play_music)
         self.audioUI.prevButton.clicked.connect(lambda: self.engine.set_time(0))
         self.audioUI.timeSlider.valueChanged.connect(self.engine.set_time)
+        
+        self.menuUI.addDirectory.connect(self.library.add_directory)
 
         self.engine.reqMedia.connect(self.playlistUI.current_track)
         self.engine.stateChanged.connect(self.audioUI.set_play_button)

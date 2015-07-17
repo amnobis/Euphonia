@@ -4,6 +4,8 @@ from PyQt5.QtWidgets import QMenuBar, QMenu, QFileDialog, \
 from PyQt5.QtCore import pyqtSignal, pyqtSlot
 
 class MenuUI(QMenuBar):
+    addDirectory = pyqtSignal(list)
+    
     def __init__(self):
         super().__init__()
         self.file_menu = QMenu("&File")
