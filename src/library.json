@@ -1,3 +1,3442 @@
 {
-    "0" : "hello"
+  "2": {
+    "ENCODING": [
+      "Lavf52.110.0"
+    ],
+    "COMPATIBLE_BRANDS": [
+      "isommp42"
+    ],
+    "MINOR_VERSION": [
+      "0"
+    ],
+    "ALBUMARTIST": [
+      "Taylor Swift"
+    ],
+    "DIR": "/home/anobis/library/.bak/space.mp3",
+    "MAJOR_BRAND": [
+      "mp42"
+    ],
+    "STYLE": [
+      "Pop"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "ENCODINGTIME": [
+      "2014-11-08 01:47:00"
+    ],
+    "LENGTH": [
+      "273000"
+    ],
+    "TITLE": [
+      "Blank Space"
+    ],
+    "ALBUM": [
+      "1989"
+    ]
+  },
+  "32": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "13"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "BAE7DD7F"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Lynne, Jeff",
+      "Petty, Tom",
+      "Campbell, Mike [Heartbreaker]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "263266"
+    ],
+    "TITLE": [
+      "Runnin' Down a Dream"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-13"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 62)   [72E95B1D]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/13 Tom Petty & the Heartbreakers - Runnin' Down a Dream.flac"
+  },
+  "12": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "10"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "7EFD5EC4"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "208573"
+    ],
+    "TITLE": [
+      "Midnight Man"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-10"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 11)   [9771527B]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/10 Joe Walsh - Midnight Man.flac"
+  },
+  "7": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "4"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "FC105966"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]",
+      "Peters, Dale",
+      "Fox, Jim [Drums]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "422400"
+    ],
+    "TITLE": [
+      "The Bomber"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-4"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 10)   [50CE3275]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/04 Joe Walsh - The Bomber.flac"
+  },
+  "36": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "4"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "58F015CE"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "143466"
+    ],
+    "TITLE": [
+      "I Need to Know"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-4"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [3672AC4E]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/04 Tom Petty & the Heartbreakers - I Need to Know.flac"
+  },
+  "34": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "10"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "381B1CC5"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom",
+      "Campbell, Mike [Heartbreaker]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "216093"
+    ],
+    "TITLE": [
+      "You Got Lucky"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-10"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 62)   [14C45EF2]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/10 Tom Petty & the Heartbreakers - You Got Lucky.flac"
+  },
+  "8": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "6"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "0212DE8E"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]",
+      "Peters, Dale",
+      "Fox, Jim [Drums]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "235493"
+    ],
+    "TITLE": [
+      "Funk #49"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-6"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 11)   [DEF6436C]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/06 Joe Walsh - Funk #49.flac"
+  },
+  "3": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "9"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "513FD83E"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "250693"
+    ],
+    "TITLE": [
+      "It's All the Same"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-9"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 10)   [27EEE858]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/09 Joe Walsh - It's All the Same.flac"
+  },
+  "20": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "3"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "36D2C1AF"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "183106"
+    ],
+    "TITLE": [
+      "Listen to Her Heart"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-3"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [F5135711]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/03 Tom Petty & the Heartbreakers - Listen to Her Heart.flac"
+  },
+  "31": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "2"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "A028CC5E"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "162800"
+    ],
+    "TITLE": [
+      "Breakdown"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-2"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [67CCCE70]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/02 Tom Petty & the Heartbreakers - Breakdown.flac"
+  },
+  "4": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "13"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "A18D64BF"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]",
+      "Vitale, Joe",
+      "Passarelli, Kenny"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "352733"
+    ],
+    "TITLE": [
+      "Mother Says"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-13"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 10)   [706187AB]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/13 Joe Walsh - Mother Says.flac"
+  },
+  "29": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "11"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "C260371A"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom",
+      "Stewart, Dave [Guitar, Producer]",
+      "Stewart, David A."
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "304066"
+    ],
+    "TITLE": [
+      "Don't Come Around Here No More"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-11"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 62)   [ADE749DB]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/11 Tom Petty & the Heartbreakers - Don't Come Around Here No More.flac"
+  },
+  "1": {
+    "COMPATIBLE_BRANDS": [
+      "isommp42"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "ENCODING": [
+      "Lavf52.110.0"
+    ],
+    "STYLE": [
+      ""
+    ],
+    "MAJOR_BRAND": [
+      "mp42"
+    ],
+    "ENCODINGTIME": [
+      "2014-11-08 01:47:00"
+    ],
+    "DIR": "/home/anobis/library/space.mp3",
+    "MINOR_VERSION": [
+      "0"
+    ],
+    "LENGTH": [
+      "270000"
+    ]
+  },
+  "27": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "7"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "3BFF353B"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "218626"
+    ],
+    "TITLE": [
+      "Even the Losers"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-7"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [EFC620BA]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/07 Tom Petty & the Heartbreakers - Even the Losers.flac"
+  },
+  "14": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "14"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "30849649"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]",
+      "Trebandt, Terry"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "314666"
+    ],
+    "TITLE": [
+      "Turn to Stone"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-14"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 11)   [BC1EF493]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/14 Joe Walsh - Turn to Stone.flac"
+  },
+  "35": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "1"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "D62A8CF6"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "213000"
+    ],
+    "TITLE": [
+      "American Girl"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-1"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [46F84CF3]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/AmericanGirl.flac"
+  },
+  "25": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "18"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "451B2EB1"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Keen, John \"Speedy\""
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "197973"
+    ],
+    "TITLE": [
+      "Something in the Air"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-18"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 61)   [C5D34A8E]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/18 Tom Petty & the Heartbreakers - Something in the Air.flac"
+  },
+  "19": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "3"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "1A1558FA"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]",
+      "Kriss, Tom",
+      "Fox, Jim [Drums]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "166266"
+    ],
+    "TITLE": [
+      "Funk #48"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-3"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 10)   [172E07FF]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/03 Joe Walsh - Funk #48.flac"
+  },
+  "23": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "14"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "A72A23BA"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Lynne, Jeff",
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "255666"
+    ],
+    "TITLE": [
+      "Free Fallin'"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-14"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [90997BB1]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/14 Tom Petty & the Heartbreakers - Free Fallin'.flac"
+  },
+  "5": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "11"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "A48736B0"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "298333"
+    ],
+    "TITLE": [
+      "Here We Go Again"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-11"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 10)   [84326862]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/11 Joe Walsh - Here We Go Again.flac"
+  },
+  "33": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "5"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "440C6040"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom",
+      "Campbell, Mike [Heartbreaker]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "202000"
+    ],
+    "TITLE": [
+      "Refugee"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-5"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [00632703]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/05 Tom Petty & the Heartbreakers - Refugee.flac"
+  },
+  "21": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "9"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "1FA9D650"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "239040"
+    ],
+    "TITLE": [
+      "The Waiting"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-9"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [FC340203]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/09 Tom Petty & the Heartbreakers - The Waiting.flac"
+  },
+  "26": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "17"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "9822B512"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "273600"
+    ],
+    "TITLE": [
+      "Mary Jane's Last Dance"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-17"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 62)   [359D81DD]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/17 Tom Petty & the Heartbreakers - Mary Jane's Last Dance.flac"
+  },
+  "28": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "15"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "895254C2"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Lynne, Jeff",
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "241933"
+    ],
+    "TITLE": [
+      "Learning to Fly"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-15"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [951130D2]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/15 Tom Petty & the Heartbreakers - Learning to Fly.flac"
+  },
+  "16": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "8"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "FB1043D1"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "213306"
+    ],
+    "TITLE": [
+      "Walk Away"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-8"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 11)   [030B3764]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/08 Joe Walsh - Walk Away.flac"
+  },
+  "9": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "12"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "6ED48338"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "188733"
+    ],
+    "TITLE": [
+      "Midnight Visitor"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-12"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 10)   [4F9C2332]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/12 Joe Walsh - Midnight Visitor.flac"
+  },
+  "22": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "8"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "5AE6798B"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom",
+      "Campbell, Mike [Heartbreaker]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "265133"
+    ],
+    "TITLE": [
+      "Here Comes My Girl"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-8"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [1096A4C2]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/08 Tom Petty & the Heartbreakers - Here Comes My Girl.flac"
+  },
+  "30": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "12"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "49C0A134"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Lynne, Jeff",
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "176666"
+    ],
+    "TITLE": [
+      "I Won't Back Down"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-12"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 62)   [0081ED39]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/12 Tom Petty & the Heartbreakers - I Won't Back Down.flac"
+  },
+  "18": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "7"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "A52E3E3E"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]",
+      "Peters, Dale"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "296733"
+    ],
+    "TITLE": [
+      "Ashes, the Rain & I"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-7"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 9)   [1E02DD44]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/07 Joe Walsh - Ashes, the Rain & I.flac"
+  },
+  "37": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "6"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "E50B82A6"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "162600"
+    ],
+    "TITLE": [
+      "Don't Do Me Like That"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-6"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [78018845]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/06 Tom Petty & the Heartbreakers - Don't Do Me Like That.flac"
+  },
+  "17": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "16"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "A37C8D7A"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]",
+      "Vitale, Joe",
+      "Passarelli, Kenny",
+      "Grace, Rocke"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "276800"
+    ],
+    "TITLE": [
+      "Meadows"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-16"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 10)   [F8C8A291]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/16 Joe Walsh - Meadows.flac"
+  },
+  "10": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "15"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "D35210B4"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "111826"
+    ],
+    "TITLE": [
+      "Comin' Down"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-15"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 10)   [B6D62864]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/15 Joe Walsh - Comin' Down.flac"
+  },
+  "6": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "17"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "71F0FD31"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]",
+      "Vitale, Joe",
+      "Passarelli, Kenny",
+      "Grace, Rocke",
+      "Vitale, Joey"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "339933"
+    ],
+    "TITLE": [
+      "Rocky Mountain Way"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-17"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 11)   [0E4F00AA]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/17 Joe Walsh - Rocky Mountain Way.flac"
+  },
+  "13": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "2"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "97DFFDD2"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]",
+      "Strong, Barrett",
+      "Whitfield, Norman"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "355200"
+    ],
+    "TITLE": [
+      "Take a Look Around"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-2"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 9)   [F23C189B]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/02 Joe Walsh - Take a Look Around.flac"
+  },
+  "11": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "5"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "A9575E07"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "329466"
+    ],
+    "TITLE": [
+      "Tend My Garden"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-5"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 10)   [D24AB282]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/05 Joe Walsh - Tend My Garden.flac"
+  },
+  "24": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "16"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "1"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "91D544BD"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "040F6712"
+    ],
+    "COMPOSERSORT": [
+      "Lynne, Jeff",
+      "Petty, Tom"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "224266"
+    ],
+    "TITLE": [
+      "Into the Great Wide Open"
+    ],
+    "DATE": [
+      "1993"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5 -verify"
+    ],
+    "ACCURATERIPDISCID": [
+      "018-002889b3-0226f611-040f6712-16"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "27402ed9-f85e-4e46-a15d-b6844c1faa23"
+    ],
+    "TOTALTRACKS": [
+      "18"
+    ],
+    "ARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "COMPOSER": [
+      "Tom Petty"
+    ],
+    "UPC": [
+      "008811081324"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Tom Petty & the Heartbreakers"
+    ],
+    "CDTOC": [
+      "12+BB+3F22+6ED4+A479+CE81+109AF+13952+1795F+1C70C+20D14+24C63+2A578+2D93A+3265B+37142+3B823+3F9D7+449FF+483FF"
+    ],
+    "STYLE": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Contemporary Pop/Rock",
+      "Album Rock",
+      "Heartland Rock",
+      "Bar Band"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 63)   [38FE85AF]"
+    ],
+    "ARTIST SORT": [
+      "Petty, Tom & the Heartbreakers"
+    ],
+    "ALBUM": [
+      "Greatest Hits"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Petty, Tom and the Heartbreakers"
+    ],
+    "DIR": "/home/anobis/library/TomPetty/GreatestHits/16 Tom Petty & the Heartbreakers - Into the Great Wide Open.flac"
+  },
+  "15": {
+    "DISCNUMBER": [
+      "1"
+    ],
+    "TRACKNUMBER": [
+      "1"
+    ],
+    "NAME": [
+      "Unknown Tracks"
+    ],
+    "PROFILE": [
+      "(default)"
+    ],
+    "TOTALDISCS": [
+      "2"
+    ],
+    "ENCODER": [
+      "FLAC 1.2.1"
+    ],
+    "CRC": [
+      "3EB930FD"
+    ],
+    "ENCODED BY": [
+      "dBpoweramp Release 14.2"
+    ],
+    "CDDB DISC ID": [
+      "E8113111"
+    ],
+    "COMPOSERSORT": [
+      "Szymczyk, Bill",
+      "DeCoteaux, Bert",
+      "Fox, Jimmy"
+    ],
+    "GENRE": [
+      "Pop/Rock"
+    ],
+    "LENGTH": [
+      "40466"
+    ],
+    "TITLE": [
+      "Tuning, Pt. 1"
+    ],
+    "DATE": [
+      "1995"
+    ],
+    "ENCODER SETTINGS": [
+      "-compression-level-5"
+    ],
+    "ACCURATERIPDISCID": [
+      "017-002c448c-02369891-e8113111-1"
+    ],
+    "SOURCE": [
+      "CD (Lossless)"
+    ],
+    "MBID": [
+      "6c1e48b7-08ce-4273-b357-43e0a7df2506"
+    ],
+    "TOTALTRACKS": [
+      "17"
+    ],
+    "ARTIST": [
+      "Joe Walsh"
+    ],
+    "UPC": [
+      "008811123321"
+    ],
+    "ORGANIZATION": [
+      "MCA"
+    ],
+    "ALBUMARTIST": [
+      "Joe Walsh"
+    ],
+    "CDTOC": [
+      "11+96+C71+7481+A537+120F7+1817D+1C67B+21D6A+25BE8+2A55A+2E275+339DC+37127+3D87E+434AE+45571+4A689+50A20"
+    ],
+    "STYLE": [
+      "Blues-Rock",
+      "Hard Rock",
+      "Arena Rock",
+      "Album Rock"
+    ],
+    "ACCURATERIPRESULT": [
+      "AccurateRip: Accurate (confidence 9)   [1759C573]"
+    ],
+    "ARTIST SORT": [
+      "Walsh, Joe [Guitar]"
+    ],
+    "ALBUM": [
+      "Look What I Did!: The Joe Walsh Anthology, Disc 1"
+    ],
+    "ALBUM ARTIST SORT": [
+      "Walsh, Joe"
+    ],
+    "DIR": "/home/anobis/library/Joe Walsh/Look What I Did!_ The Joe Walsh Anthology, Disc 1/01 Joe Walsh - Tuning, Pt. 1.flac"
+  }
 }

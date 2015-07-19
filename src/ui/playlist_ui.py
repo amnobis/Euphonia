@@ -21,34 +21,30 @@ class PlaylistUI(QTreeWidget):
         self.songMenu = QMenu("Actions")
         self.addMenu = QMenu("Actions")
         self._connect_widgets()
-        self._init_playlist()
-
-    def _init_playlist(self):
         self._init_menus()
-        for root, dirs, files in os.walk("/home/anobis/library"):
-            for file in files:
-                data = taglib.File(os.path.join(root,file))
-                info = ['' for i in range(5)]
 
-                try:
-                    for i in range(5):
-                        if i == 1:
-                            length = int(data.tags.get(self.meta[i])[0]) / 1000
-                            mins = int(length / 60)
-                            secs = int(length - 60 * mins)
-                            info[i] = str(mins) + ":%02d" % secs
-                        else:
-                            info[i] = data.tags.get(self.meta[i])[0]
-                except:
-                    if info[0] is '':
-                        info[0] = "Unknown Track"
-
-                item = QTreeWidgetItem()
+    def init_playlist(self, lib):
+        for song_meta in lib.values():
+            info = ['' for i in range(5)]
+            try:
                 for i in range(5):
-                    item.setText(i, info[i])
+                    if i == 1:
+                        length = int(song_meta.get(self.meta[i])[0]) / 1000
+                        mins = int(length / 60)
+                        secs = int(length - 60 * mins)
+                        info[i] = str(mins) + ":%02d" % secs
+                    else:
+                        info[i] = song_meta.get(self.meta[i])[0]
+            except:
+                pass
 
-                item.setData(0, 1, QUrl.fromLocalFile(os.path.join(root, file)))
-                self.addTopLevelItem(item)
+            item = QTreeWidgetItem()
+            for i in range(5):
+                item.setText(i, info[i])
+
+            item.setData(0, 1, QUrl.fromLocalFile(song_meta.get("DIR")))
+            self.addTopLevelItem(item)
+
         headers = ["Name", "Time", "Artist", "Album", "Genre"]
         self.setColumnCount(5)
         self.setHeaderLabels(headers)

@@ -38,3 +38,4 @@ class MenuUI(QMenuBar):
 
         if self.dialog.exec():
             dirs = self.dialog.selectedFiles()
+            self.addDirectory.emit(dirs)

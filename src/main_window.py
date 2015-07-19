@@ -8,7 +8,6 @@ from src.ui.playlist_ui import PlaylistUI
 from src.ui.menu_ui import MenuUI
 
 
-
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -21,6 +20,7 @@ class MainWindow(QMainWindow):
         self.layout = QGridLayout(self.mainWidget)
         self._connect_widgets()
         self._init_ui()
+        self.library.load_library()
 
     def _init_ui(self):
         self.layout.addWidget(self.playlistUI, 0, 1)
@@ -43,6 +43,8 @@ class MainWindow(QMainWindow):
         
         self.menuUI.addDirectory.connect(self.library.add_directory)
 
+        self.library.importLibrary.connect(self.playlistUI.init_playlist)
+
         self.engine.reqMedia.connect(self.playlistUI.current_track)
         self.engine.stateChanged.connect(self.audioUI.set_play_button)
         self.engine.positionChanged.connect(self.audioUI.update_slider)
@@ -52,4 +54,3 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MainWindow()
     sys.exit(app.exec_())
-    
