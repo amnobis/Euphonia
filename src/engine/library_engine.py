@@ -25,20 +25,22 @@ class LibraryEngine(QObject):
                     tag_file = taglib.File(os.path.join(root, file))
                     if not self._contains_song(tag_file):
                         tag_file.tags["DIR"] = root + "/" + file
+                        tag_file.tags["BITRATE"] = [str(tag_file.bitrate)]
                         self.library[len(self.library) + 1] = tag_file.tags
+                    tag_file.save()
         json.dump(self.library, open(self.lib_file, 'w'), indent=2)
         self.importLibrary.emit(self.library)
 
     def _contains_song(self, tag_file):
         meta = tag_file.tags
         for data in self.library.values():
-            if data.get("NAME") == meta.get("NAME") and \
+            if data.get("TITLE") == meta.get("TILE") and \
                data.get("LENGTH") == meta.get("LENGTH"):
-                if meta.get("NAME") is None:
+                if meta.get("TITLE") is None:
                     self._unknown_track(tag_file)
                 return True
         return False
 
     def _unknown_track(self, tag_file):
-        tag_file.tags["NAME"] = "Unknown Tracks"
+        tag_file.tags["TITLE"] = "Unknown Tracks"
         tag_file.save()

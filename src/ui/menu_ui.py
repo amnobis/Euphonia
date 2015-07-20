@@ -6,8 +6,9 @@ from PyQt5.QtCore import pyqtSignal, pyqtSlot
 class MenuUI(QMenuBar):
     addDirectory = pyqtSignal(list)
     
-    def __init__(self):
+    def __init__(self, parent):
         super().__init__()
+        self.parent = parent
         self.file_menu = QMenu("&File")
         self.edit_menu = QMenu()
         self.help_menu = QMenu()
@@ -18,14 +19,15 @@ class MenuUI(QMenuBar):
 
     def _file_menu(self):
         self.add_library = QAction("&Add Library...", self)
+        self.exit_player = QAction("E&xit", self)
         self.file_menu.addAction(self.add_library)
-        self.file_menu.addAction("&Save Library...")
-        self.file_menu.addAction("E&xit")
+        self.file_menu.addAction(self.exit_player)
         self._connect_widgets()
         self.addMenu(self.file_menu)
 
     def _connect_widgets(self):
         self.add_library.triggered.connect(self._add_library)
+        self.exit_player.triggered.connect(self.parent.close)
 
     def _add_library(self):
         self.dialog = QFileDialog()

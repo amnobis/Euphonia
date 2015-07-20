@@ -17,6 +17,9 @@ class AudioEngine(QMediaPlayer):
         else:
             self.reqMedia.emit()
 
+    def adjust_volume(self, loudness):
+        self.setVolume(loudness)
+
     @pyqtSlot(int)
     def set_time(self, time):
         if abs(self.position() - time) > 99:
